@@ -2,10 +2,17 @@
 
 This project checks for upgradable packages and searches for potential bugs before upgrading.
 
-## System Requirements
+## Requirements
+copy .env.sample > .env
+
+'''
+GOOGLE_API_KEY=your_api_key
+'''
+
+### System Requirements
 - arch
 - uv
 - pacman-contrib (for checkupdates)
 
-# How to Run
+## How to Run
 uv run main.py
